@@ -8,7 +8,7 @@ except AttributeError:
     pass
 else:
     ssl._create_default_https_context = _create_unverified_https_context
-nltk.download('vader_lexicon')
+nltk.download('vader_lexicon','nltk_data')
 from .services import give_emoji_free_text, mytagme_ann, remove_urls, word_count, clean_text
 from .serializers import TwitSerializer
 from .models import Twit

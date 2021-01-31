@@ -11,7 +11,7 @@ except AttributeError:
     pass
 else:
     ssl._create_default_https_context = _create_unverified_https_context
-nltk.download('wordnet')
+nltk.download('wordnet','nltk_data')
 from nltk.tokenize import RegexpTokenizer
 from nltk.stem import WordNetLemmatizer 
 from nltk.probability import FreqDist
