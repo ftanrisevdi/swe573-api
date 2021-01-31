@@ -63,6 +63,7 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",
+    "https://swe573-client.herokuapp.com/"
 ]
 
 ROOT_URLCONF = 'rest.urls'
